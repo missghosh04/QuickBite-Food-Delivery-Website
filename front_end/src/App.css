@@ -1,12 +1,29 @@
- .header-contents{
+ a {
+   text-decoration: none;
+ }
+
+ .app {
+   width: 100%;
+   margin: auto
+ }
+
+ .header-contents {
    animation: fadein 1s ease-in-out 0.2s;
-  }
-  @keyframes fadein {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity:1;
-    }         
-    }
-  
+ }
+
+ @keyframes fadein {
+   0% {
+     opacity: 0;
+   }
+
+   100% {
+     opacity: 1;
+   }
+ }
+ .Explore_menu_list::-webkit-scrollbar{
+  display:none;
+ }
+ .Explore_menu_list {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
