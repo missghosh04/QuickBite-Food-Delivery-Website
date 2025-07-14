@@ -1,11 +1,11 @@
 import React from 'react'
-import headerImage from "../../assets/header_img.png"
+import {assets} from "../assets/assets"
 import { useState, useEffect } from 'react';
 const Header = () => {
     
     return (
-        <div className='Header h-[90vh] p-5 m-5  flex justify-center items-center  relative bg-amber-900'>
-            <div className='Header-Background absolute m-5 p-10 h-[80vh] w-[80vw] rounded-xl bg-center  text-white flex flex-col justify-center items-start ' style={{ backgroundImage: `url(${headerImage})` }}>
+        <div className='Header h-[90vh] p-5 m-5 bg-amber-50 flex justify-center items-center  relative '>
+            <div className='Header-Background absolute m-5 p-10 h-[80vh] w-[80vw] rounded-xl bg-center  text-white flex flex-col justify-center items-start ' style={{ backgroundImage: `url(${assets.header_img})` }}>
                 <div className='header-contents w-[60%] flex flex-col  items-start gap-5 '>
                     <h1 className='text-5xl font-bold'>Welcome to QuickBite</h1>
                     <p className='font-bold'>Craving something delicious? Get your favorite meals delivered hot and fresh in minutes! QuickBite brings the best local restaurants right to your doorstep—fast, affordable, and always tasty.</p>

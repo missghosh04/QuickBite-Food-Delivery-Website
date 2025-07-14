@@ -5,7 +5,7 @@ import { assets } from '../assets/assets'
 const Navbar = () => {
   const[menu,setMenu]=useState("home")
   return (
-    <div className='Navbar  h-[10vh] w-full p-10 m-0 flex justify-between items-center bg-amber-800 fixed z-1'>
+    <div className='Navbar text-white h-[10vh] w-full p-10 m-0 flex justify-between items-center bg-amber-950 fixed z-1'>
       <img src={assets.logo} alt="" className='logo w-[220px]' />
       <ul className="navbar-menu flex gap-10 font-medium cursor-pointer ">
         <li onClick={() => setMenu("home")} className={menu==="home"?"pb-1 border-b-2  border-amber-400":""}>Home</li>
